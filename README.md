@@ -1,24 +1,16 @@
-# b24
+# Скрипт для отдела продаж (приложение Bitrix24)
 
-## Project setup
+## Установка
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Компиляция и горячая перезагрузка
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run start
+npm run watch
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Идеи для настройки среды разработки
+https://habr.com/ru/post/459012/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

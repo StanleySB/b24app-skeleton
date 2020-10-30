@@ -5,17 +5,19 @@
 </template>
 
 <script>
-    import {test} from "./api/get-current-user";
+    import getCurrentUser from "./api/get-current-user";
 
     export default {
         name: 'App',
         data: () => ({
-            user: {a: 'bbbasdf'}
+            user: {}
         }),
-        async mounted () {
-            let r = test();
+        methods: {
 
-            console.log('r', r);
+        },
+        mounted () {
+            let promise = getCurrentUser();
+            promise.then(response => {console.log(response)});
         }
     }
 </script>
